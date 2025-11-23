@@ -3,7 +3,7 @@
 #include "Logging/LogMacros.h"
 
 class UObject;
-
+// 自定义log 类型，指定输出log字段，便于debug
 MINIARPGSHOOTER_API DECLARE_LOG_CATEGORY_EXTERN(LogMiniGame, Log, All);
 MINIARPGSHOOTER_API DECLARE_LOG_CATEGORY_EXTERN(LogMiniGameExperience, Log, All);
 MINIARPGSHOOTER_API DECLARE_LOG_CATEGORY_EXTERN(LogMiniGameAbilitySystem, Log, All);
